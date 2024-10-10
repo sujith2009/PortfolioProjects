@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["module-name"], // Replace 'module-name' with the actual module you want to externalize
+      external: ["react-router-dom"], // Replace 'module-name' with the actual module you want to externalize
     },
   },
 });
