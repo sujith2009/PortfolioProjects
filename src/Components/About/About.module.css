@@ -1,0 +1,16 @@
+.MainText h1 {
+  font-size: 48px !important;
+  font-weight: bolder;
+  font-family: cursive;
+  word-spacing: 20px !important;
+  color: #fff;
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+  }
+  .BsFillEmojiSunglassesFill {
+    font-size: 2rem;
+  }
+}

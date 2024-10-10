@@ -1,0 +1,21 @@
+.SongsHeader {
+  font-family: Roboto, sans-serif;
+  color: "#fff" !important;
+  font-size: 36px;
+  font-weight: 500;
+}
+.cardTitle {
+  color: #fff;
+  font-size: 15px;
+  font-family: "initial";
+}
+.imgResponsive {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.songAudioControl {
+  width: 90px !important;
+}

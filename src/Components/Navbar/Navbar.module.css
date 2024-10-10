@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.container {
+  box-shadow: 0 1px 3px rgba(212, 203, 203, 0.555),
+    0 1px 2px rgba(122, 120, 120, 0.466);
+}
+.NavLitm,
+.nav-link {
+  color: #fff !important;
+}
+.link {
+  color: #fff !important;
+  font-family: "Outfit";
+  font-style: normal;
+}
+.link:hover {
+  background-color: "#059212" !important;
+  color: greenyellow !important;
+}
+input {
+  background-color: #23232366 !important;
+}
+input[type="text"] {
+  color: #fff !important;
+}
+
+input::placeholder {
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important; /* Adjust the font size as per your needs */
+  }
+}

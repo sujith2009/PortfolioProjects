@@ -1,0 +1,31 @@
+.getyourCss {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+  color: #ff4b91; /* Base text color */
+  text-shadow: 1px 1px 2px #ff4b91,
+    /* Shadow color matching the base color */ 2px 2px 2px #ff4b91,
+    /* Slightly darker shadow */ 3px 3px 6px #2f1760,
+    /* Even darker shadow */ 4px 4px 8px black; /* Black shadow */
+}
+
+.videoCss {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px rgba(204, 201, 201, 0.863),
+    0 3px 4px rgba(190, 188, 188, 0.89);
+}
+
+.buttonCss {
+  background-color: #ff4b91;
+  color: #fff;
+  font-weight: 700;
+  font-family: initial;
+}
+.buttonCss:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
